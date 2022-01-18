@@ -1,0 +1,95 @@
+<?php
+
+$name = "Mahid";
+$f_name = "Syed";
+$m_name = "Mahidul";
+$l_name = "Islam";
+
+echo $name, "<br>";//This <br> tag is for line break.
+echo $f_name," ",$m_name," ",$l_name, "<br>";//This code is for string concat.
+echo strlen($m_name),"<br>";//This code is for checking string lenth.
+echo strrev($m_name),"<br>";//This code is for string reverse.
+
+$num1 = 12;
+$num2 = 3;
+
+//This code is for math.
+echo $num1 + $num2, "<br>";
+echo $num1 - $num2, "<br>";
+echo $num1 * $num2, "<br>";
+echo $num1 / $num2, "<br>";
+echo $num1 ** $num2,"<br>";
+
+$int1 = 20;
+$int2 = 25;
+
+//This code is for comparison operator.
+echo $int1 < $int2, "<br>";//less than
+echo $int1 > $int2, "<br>";//greater than
+echo $int1 <= $int2,"<br>";//less than or equal
+echo $int1 >= $int2,"<br>";//greater than or equal
+echo $int1 == $int2,"<br>";//only equal
+echo $int1 != $int2,"<br>";//not equal
+
+$float1 = 56.5656;
+$int3 = (int)$float1;
+
+echo $int3,"<br>";
+
+$float2 = 84.875;
+$int4 = (int)$float2;
+
+echo $int4,"<br>";
+
+$raw1 = -65;
+
+echo abs ($raw1), "<br>";
+
+$raw2 = -86.54;
+
+echo abs ($raw2), "<br>";
+
+$int5 = 128;
+
+echo sqrt($int5), "<br>";
+
+$int6 = 0.59;
+$int7 = 0.345;
+
+echo round($int6),"<br>";
+echo round($int7),"<br>";
+
+#This code generates random number
+$random = rand();
+
+echo $random, "<br>";
+
+#This code is for if, else and elseif
+$day = "tue";
+
+if($day == "sat"){
+    echo "Today is Saturday";
+}
+elseif ($day == "sun") {
+    echo "Today is Sunday";
+}
+elseif ($day == "mon") {
+    echo "Today is Monday";
+}
+elseif ($day == "tue") {
+    echo "Today is Tuesday";
+}
+elseif ($day == "wed") {
+    echo "Today is Wednesday";
+}
+elseif ($day == "thurs") {
+    echo "Today is Thursday";
+}
+elseif ($day == "fri") {
+    echo "Today is Friday";
+}
+else {
+    echo "NO match found";
+}
+
+?>
